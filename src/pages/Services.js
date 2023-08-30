@@ -1,9 +1,9 @@
 import React from 'react'
 import domiciliary from '../images/smiley-man-woman-medium-shot.jpg'
-import domic from "../images/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg"
+import domic from "../images/african-social-worker-helping-senior-woman.jpg"
 import paliat from '../images/smiley-man-woman-medium-shot.jpg'
-import respite from '../images/nurse-consoling-old-man-crying.jpg'
-import { Card } from 'flowbite-react';
+import respite from '../images/high-angle-man-sleeping-with-mask.jpg'
+
 function Services() {
   return (
     <div>
@@ -65,18 +65,18 @@ function Services() {
                         </h4>
                     </div> 
 
-                    <div class="lg:flex item-stretch">
+                    <div class="lg:flex grid  lg:grid-cols-3 lg:gap-x-4 m-auto grid-cols-3 gap-2 px-2 item-stretch " value={{width: "800px"}}>
 
-                        <div className="px-2   sm:items-center sm:justify-center">
-                            <Card
-                                imgAlt="end-of-life supported person"
-                                imgSrc={paliat}>
+                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center ">
+                        
+                                <img class="rounded-t-lg" src={paliat} alt="" />
+                               
                                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     <p>
                                     Palliative Care
                                     </p>
                                 </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400">
+                                <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='rounded-lg text-left '>
                                     
                                     Palliative care also known as 'end-of-life care' refers to the services given to those with a terminal illness.
@@ -92,19 +92,18 @@ function Services() {
 
                                     
                                 </p>
-                            </Card>
+                            
                         </div>
 
-                        <div className="px-2">
-                            <Card
-                                imgAlt="end-of-life supported person"
-                                imgSrc={respite}>
+                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center">
+                            
+                                <img class="rounded-t-lg" src={respite} alt="" />
                                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     <p>
                                     Respite Care
                                     </p>
                                 </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400">
+                                <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
                                         It refers to temporary care service, designed to give carers such as family members,
                                     or the person receiving care, a much-needed break. We can provide these services at home or residential facilities.
@@ -123,19 +122,20 @@ function Services() {
                                     </ul>
                                 </p> 
                                 </p>
-                            </Card>
+                            
                         </div>
 
-                        <div className="px-2">
-                            <Card
-                                imgAlt="end-of-life supported person"
-                                imgSrc={domic}>
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center">
+
+                            
+                            <img class="rounded-t-lg" src={domic} alt="" />
+                            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     <p>
                                     Supported Living Care
                                     </p>
-                                </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400">
+                            </h5>
+
+                            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
                                     Our Supported Living services enable people to live independently and manage their own tenancies, with support 
                                     designed around their needs and goals. We concentrate on offering help and accommodations to those with a range of
@@ -154,7 +154,8 @@ function Services() {
                                     </ul>
                                 </p> 
                                 </p>
-                            </Card>
+    
+                            
                         </div>
                                         
                     </div>

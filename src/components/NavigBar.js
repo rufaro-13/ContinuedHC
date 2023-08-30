@@ -8,7 +8,7 @@ export default function NavbarWithCTAButton() {
     <Navbar
       fluid
       
-      className="bg-greentheme"
+      className="bg-emerald-500"
     >
       <Navbar.Brand href="https://flowbite-react.com">
         <img
@@ -17,13 +17,11 @@ export default function NavbarWithCTAButton() {
           src={logo}
         />
         <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">
-          Continued HealthCare
+          Continued Health Care
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
-        <Button>
-          Get started
-        </Button>
+        
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>

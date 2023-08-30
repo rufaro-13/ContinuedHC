@@ -41,22 +41,20 @@ function Home() {
             </h4>
 
             <div className="mb-4 rounded-lg overflow-hidden sm:w-16 mt-4 sm:mt-0">
-      <img src={serv} alt="Residential Care" className="w-full h-full object-cover" />
-    </div>
+                <img src={serv} alt="Residential Care" className="w-full h-full object-cover" />
+            </div>
         </div> 
 
-        <div class="lg:flex">
+        <div class=" lg:flex grid  lg:grid-cols-4 lg:gap-x-3 m-auto grid-cols-2 gap-2 px-2 item-stretch ">
 
-        <div className="px-2">
-        <Card
-            imgAlt="an old woman cared for at home"
-            imgSrc={domic} className="px-2" >
+        <div className="px-2 col-span-1 lg:w-1/4 w-1/2 sm:items-center sm:justify-center">
+            <img class="rounded-t-lg" src={domic} alt="" />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
                 Domiciliary Care
                 </p>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                 <p class='text-left'>
                 Our services enable people to remain independent at home by helping them with personal care, 
                 medication, household tasks and other activities which help them maintain their quality of life.
@@ -68,18 +66,17 @@ function Home() {
                         Learn more
                     </Link>
             </p>
-        </Card></div>
+        </div>
         
-        <div className="px-2">
-        <Card
-            imgAlt="end-of-life supported person"
-            imgSrc={paliat}>
+        <div className="px-2 col-span-1 lg:w-1/4 w-1/2  sm:items-center sm:justify-center">
+        
+            <img class="rounded-t-lg" src={paliat} alt="" />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
                 Palliative Care
                 </p>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                 <p lass='text-left'>
                 We provide physical, emotional, social, and spiritual support for patients and their families
                 day and night comfort during defining moments of life.
@@ -91,18 +88,16 @@ function Home() {
                         Learn more
                     </Link>
             </p>
-        </Card></div>
+        </div>
 
-        <div className="px-2">
-        <Card
-            imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc={respite}>
+        <div className="px-2 col-span-1 lg:w-1/4 w-1/2  sm:items-center sm:justify-center">
+            <img class="rounded-t-lg" src={respite} alt="" />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
                 Respite Care
                 </p>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                 <p>
                 It refers to temporary care service, designed to give carers such as family members,
                                     or the person receiving care, a much-needed break.
@@ -114,18 +109,16 @@ function Home() {
                         Learn more
                     </Link>
             </p>
-        </Card></div>
+        </div>
 
-        <div className="px-2">
-        <Card
-            imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc={supported}>
+        <div className="px-2 col-span-1 lg:w-1/4 w-1/2  sm:items-center sm:justify-center">
+            <img class="rounded-t-lg" src={supported} alt="" />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
                 Supported Living
                 </p>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
                 <p>
                 Our Supported Living services enable people to live independently and manage their own tenancies, with support 
                  designed around their needs and goals.
@@ -137,7 +130,7 @@ function Home() {
                         Learn more
                     </Link>
             </p>
-        </Card></div>
+        </div>
         
         
         </div>       
