@@ -1,15 +1,15 @@
 import React from 'react'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton, FaPhone,  } from 'react-icons/fa6';
-import  Map from '../components/Map'
+//import  Map from '../components/Map'
 
 function Contact() {
 
-  const location={
+  /* const location={
     address: '40 Capmartin Road, Coventry CV6 3FY, UK',
     lat: 52.4279443,
-    lng: -1.5136305,
-}
+    lng: -1.5136305, */
+//}
   return (
     <div>
         <section>
