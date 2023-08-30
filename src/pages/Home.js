@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import domic from "../images/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg"
-import { Card } from 'flowbite-react';
+
 import paliat from '../images/high-angle-man-sleeping-with-mask.jpg'
 import respite from '../images/african-social-worker-helping-senior-woman.jpg'
 import supported from '../images/medium-shot-woman-getting-breakfast.jpg'

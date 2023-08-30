@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, Navbar } from 'flowbite-react';
+import {  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/logo.jpg'
 export default function NavbarWithCTAButton() {

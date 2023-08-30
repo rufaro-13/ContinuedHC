@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsPhone, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+
 import {Link} from 'react-router-dom'
 
 function Footer() {
