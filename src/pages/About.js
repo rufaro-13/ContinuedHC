@@ -14,15 +14,15 @@ function About() {
                     </h4>
                 </div>
 
-                <div class="flex pt-4 pb-4">
+                <div class="md:flex pt-4 pb-4">
 
-                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-4 ">
-                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl">
+                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-2 ">
+                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl pt-2">
                            Our Mission <br/><br/>
                         </h5>
 
-                        <p class="pl-4">
-                        As CHC we take pride in seeing our clients maintain their life style We aim : <br/><br/>
+                        <p class="pl-4 font-normal text-sm md:text-lg">
+                        As CHC we take pride in seeing our clients maintain their life style. We aim : <br/><br/>
                         <ul class="pl-4 list-disc">
                             <li> to provide a high standard of care and support to every service user.</li>
                             <li> to ensure the independence of our clients in a safe and comfortable environment </li>
@@ -45,18 +45,18 @@ function About() {
 
                 </div>
 
-                <div class="flex pt-4 pb-4">
+                <div class="md:flex pt-4 pb-4">
 
                     <div class="md:w-1/2 item-center justify-center  px-4">
                     <img src={heart}class=" rounded-lg h-48 mr-8" alt=""/> 
                     </div> 
 
-                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-4 ">
-                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl">
+                    <div class="md:w-1/2  sm:82 rounded-lg bg-emerald-200  sm:items-center sm:justify-center   mx-2 ">
+                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl pt-2">
                            Why choose us <br/><br/>
                         </h5>
 
-                        <p class="pl-4">
+                        <p class="pl-4 font-normal text-sm md:text-lg">
                         As CHC we take pride in seeing our clients maintain their life style We aim : <br/><br/>
                         <ul class="pl-4 list-disc">
                             <li> to provide a high standard of care and support to every service user.</li>

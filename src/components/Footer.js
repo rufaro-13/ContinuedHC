@@ -4,24 +4,24 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
-    <div>
+    <div class='mt-5'>
         
 <footer class="bg-emerald-500   shadow dark:bg-gray-900 ">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <div class="w-full max-w-screen-xl mx-auto py-5 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white">Continued HealthCare</span>
+                <span class="self-center text-white md:text-2xl text-1xl font-semibold whitespace-nowrap dark:text-white">Continued HealthCare</span>
             </a>
             <ul class="flex flex-wrap text-lg text-sm items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
-                <Link to="/about" className='text-white px-8'>
+                <Link to="/about" className='text-white md:px-8 px-4'>
                     About
                 </Link>
-                <Link to="/services" className='text-white px-8'>
+                <Link to="/services" className='text-white md:px-8 px-4'>
                     Services
                 </Link>
                 
-                <Link to="/contact" className='text-white px-8'>
+                <Link to="/contact" className='text-white md:px-8 px-4'>
                     Contact
                 </Link>
             </ul>

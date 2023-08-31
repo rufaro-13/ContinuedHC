@@ -11,19 +11,23 @@ function Services() {
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
+                    <h4 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
                        Our services:
                     </h4>
                 </div> 
 
-                <div class="flex pt-4 pb-4">
+                <div class="md:flex pt-4 pb-4">
+
+                    <div class="md:w-1/2 col-span-1 px-4 pt-2">
+                        <img src={domiciliary}class=" rounded-lg md:h-92  mr-3" alt=""/> 
+                    </div>
 
                     <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-4 ">
-                        <h5 class="mx-auto mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl">
+                        <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl">
                             Domiciliary Care <br/><br/>
                         </h5>
 
-                        <p>
+                        <p class='font-normal text-sm md:text-lg px-2'>
                         Also known as 'Home care' refers to the range of services put in place to support an individual in their home. A trained 
                         carer visits the individual cared for, usually for a few hours each day or as the individual requires Our services enable
                          people to remain independent at home and help them maintain their quality of life.
@@ -43,12 +47,10 @@ function Services() {
 
                     </div>
 
-                    <div class="md:w-1/2 col-span-1 px-4">
-                    <img src={domiciliary}class=" rounded-lg h-84 mr-3" alt=""/> 
-                    </div>
+                    
                 </div>
 
-                <p class='sm:items-center sm:justify-center'>
+                <p class='font-normal text-sm md:text-lg  sm:items-center sm:justify-center px-2'>
                     Some of the advantages of domiciliary care include: <br/><br/>
                     <ul class="list-disc ">
                         <li>It is a very affordable</li>
@@ -65,18 +67,18 @@ function Services() {
                         </h4>
                     </div> 
 
-                    <div class="lg:flex grid  lg:grid-cols-3 lg:gap-x-4 m-auto grid-cols-3 gap-2 px-2 item-stretch " value={{width: "800px"}}>
+                    <div class="md:flex grid  lg:grid-cols-3 lg:gap-x-4 m-auto md:grid-cols-2 md:gap-2  grid-cols-1 px-2 item-stretch " >
 
-                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center ">
+                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3">
                         
                                 <img class="rounded-t-lg" src={paliat} alt="" />
                                
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                                     <p>
                                     Palliative Care
                                     </p>
                                 </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
+                                <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='rounded-lg text-left '>
                                     
                                     Palliative care also known as 'end-of-life care' refers to the services given to those with a terminal illness.
@@ -95,25 +97,26 @@ function Services() {
                             
                         </div>
 
-                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center">
+                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3 ">
                             
                                 <img class="rounded-t-lg" src={respite} alt="" />
-                                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                                     <p>
                                     Respite Care
                                     </p>
                                 </h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
+                                <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
                                         It refers to temporary care service, designed to give carers such as family members,
                                     or the person receiving care, a much-needed break. We can provide these services at home or residential facilities.
 
-                                    The services include:<br/>
+                                    The services include:<br/><br/>
+
                                     <ul class="list-disc ">
                                         <li>Individul's care is taken over by a trained carer for a few hours</li>
                                         <li>Taking out the cared for indivdual</li>
                                         
-                                    </ul>
+                                    </ul><br/>
 
                                     Some of the advantages include:<br/>
                                     <ul class="list-disc ">
@@ -125,17 +128,15 @@ function Services() {
                             
                         </div>
 
-                        <div className="px-4 col-span-1 w-1/3  sm:items-center sm:justify-center">
-
-                            
+                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3">
                             <img class="rounded-t-lg" src={domic} alt="" />
-                            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                                     <p>
                                     Supported Living Care
                                     </p>
                             </h5>
 
-                            <p className="font-normal text-gray-700 dark:text-gray-400 pt-4">
+                            <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
                                     Our Supported Living services enable people to live independently and manage their own tenancies, with support 
                                     designed around their needs and goals. We concentrate on offering help and accommodations to those with a range of
