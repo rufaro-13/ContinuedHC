@@ -96,7 +96,7 @@ function Home() {
                         </h5>
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                            It refers to temporary care service, designed to give carers such as family members,
+                            We provide temporary care services, designed to give carers such as family members,
                                                 or the person receiving care, a much-needed break.
                             </p>
 

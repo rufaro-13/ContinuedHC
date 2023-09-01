@@ -29,7 +29,7 @@ function Services() {
 
                         <p class='font-normal text-sm md:text-lg px-2'>
                         Also known as 'Home care' refers to the range of services put in place to support an individual in their home. A trained 
-                        carer visits the individual cared for, usually for a few hours each day or as the individual requires Our services enable
+                        carer visits the individual cared for, usually for a few hours each day or as the individual requires. Our services enable
                          people to remain independent at home and help them maintain their quality of life.
                         This range of services includes:<br/><br/>
                         <ul class="list-disc ">
@@ -53,9 +53,9 @@ function Services() {
                 <p class='font-normal text-sm md:text-lg  sm:items-center sm:justify-center px-2'>
                     Why should you choose our domiciliary care services: <br/><br/>
                     <ul class="list-disc ">
-                        <li>They are very affordable</li>
-                        <li>We provides a familiar and comfortable environment for the cared for individual</li>
-                        <li>A sense of retaining their independence and individual benefits from improved mental health is our priority  </li>
+                        <li>They are very affordable.</li>
+                        <li>We provide care at home in your familiar and comfortable environment for the cared for individual.</li>
+                        <li>A sense of retaining their independence and individual benefits from improved mental health is our priority.  </li>
                     </ul>
                 </p>
 
