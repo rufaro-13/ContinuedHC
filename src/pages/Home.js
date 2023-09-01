@@ -13,7 +13,10 @@ function Home() {
         <section class="bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-700 bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <marquee behavior="scroll" direction="left"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">Welcome to Continued HealthCare</h1></marquee>
-                <p class="mb-8 text-2xl font-bold text-gray-300  lg:text-4xl sm:px-16 lg:px-48">We love to serve you with compassionate care.</p>
+                <p class="mb-8 text-2xl font-bold text-gray-300  lg:text-4xl sm:px-16 lg:px-48">We pride ourselves in providing high quality person centred care to people in the
+                 comfort of their home.
+                    
+                </p>
                 <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
                     
                    <p className='text-white rounded-lg border-4 py-3 px-3 border-greentheme text-2xl lg:text-3xl md:w-1/2'>
