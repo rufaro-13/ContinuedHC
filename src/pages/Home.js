@@ -17,7 +17,7 @@ function Home() {
                 <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
                     
                    <p className='text-white rounded-lg border-4 py-3 px-3 border-greentheme text-2xl lg:text-3xl md:w-1/2'>
-                     We offer qaulity  and very affordable services ranging from domiciliary care, respite care and many more.
+                     We offer quality and very affordable services ranging from domiciliary care, respite care and many more.
                     Our team of exceptionally competent, caring and well-trained individuals is one of the reasons you should
                     join us today.</p>
 
