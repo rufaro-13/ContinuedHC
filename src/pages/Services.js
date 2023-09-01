@@ -110,10 +110,10 @@ function Services() {
                                 </h5>
                                 <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
-                                    We provide temporary care services, designed to give carers such as family members,
-                                    or the person receiving care, a much-needed break. We can provide these services at home or residential facilities.
+                                    We provide temporary care services, designed to give  family members sometime off to re-energise whilst 
+                                    having peace of mind that their loved ones are looked after.  This gives our service users a change of environment and experience which sometimes good for mental health.
 
-                                    The services include:<br/><br/>
+                                    We can provide these services at home or residential facilities. The services include:<br/><br/>
 
                                     <ul class="list-disc ">
                                         <li>Individual's care is taken over by a trained carer for a few hours</li>
@@ -121,10 +121,12 @@ function Services() {
                                         
                                     </ul><br/>
 
-                                    We will make sure that:<br/>
+                                    We strive to:
+<br/>
                                     <ul class="list-disc ">
-                                        <li>We are on top of the mental health and wellbeing of both the carer and the individual being cared for</li>
-                                        <li>We prevent burnouts and provide the opportunity for a break to family members or carers</li>
+                                        <li>promote the mental health and wellbeing of our carers and the individual being cared for.</li>
+                                        <li>prevent burnouts and provide the opportunity for a break to family members or carers.</li>
+                                        <li>offer a person centred care, placing our service users at the centre of our services</li>
                                     </ul>
                                 </p> 
                                 </p>
@@ -141,14 +143,17 @@ function Services() {
 
                             <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
-                                    Our Supported Living services enable people to live independently and manage their own tenancies, with support 
-                                    designed around their needs and goals. We concentrate on offering help and accommodations to those with a range of
-                                    disabilities and/or complicated needs. The services we offer include support with:<br/><br/>
+                                    Our Supported Living services enable people to live independently and manage their own tenancies, 
+                                    with support designed around their needs and goals. We aim to promote choice and personalise our 
+                                    services to the needs of our service users. We support adults with mental health needs, dementia, 
+                                    learning disability and those recovering from hospital discharge.The services we offer include support with:<br/><br/>
                                     <ul class="list-disc ">
-                                        <li>Cooking, cleaning and looking after the home</li>
-                                        <li>Following a healthy lifestyle</li>
+                                        <li>Cooking, cleaning and maintaining the home.</li>
+                                        <li>Promoting a healthy lifestyle</li>
                                         <li>Personal care, such as getting washed and dressed</li>  
-                                        <li>Taking medication</li>                                      
+                                        <li>Support with medication.</li>
+                                        <li>Social inclusion</li>  
+                                        <li>Promoting relationships with family and friends.</li>                                    
                                     </ul>
 
                                     {/* Some of the advantages include:<br/>
