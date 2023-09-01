@@ -29,18 +29,18 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-white'>
+          <p className='text-white font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/about" className='text-white'>
+        <Link to="/about" className='text-white font-bold md:text-lg'>
           About
         </Link>
-        <Link to="/services" className='text-white'>
+        <Link to="/services" className='text-white font-bold md:text-lg'>
           Services
         </Link>
         
-        <Link to="/contact" className='text-white'>
+        <Link to="/contact" className='text-white font-bold md:text-lg'>
           Contact
         </Link>
       </Navbar.Collapse>

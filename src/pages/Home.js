@@ -13,22 +13,17 @@ function Home() {
         <section class="bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-700 bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <marquee behavior="scroll" direction="left"><h1 class="mb-4 text-4xl font-extrabold font-cursive tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">Welcome to Continued HealthCare</h1></marquee>
-                <p class="mb-8 text-2xl font-bold text-gray-300 lg:text-xl sm:px-16 lg:px-48">We love to serve you with compassionate care.</p>
-                {/* <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                    <a href="#" 
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 
-                    hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Get started
-                        <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
-                    <a href="#" 
-                    class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center
-                    text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                        Learn more
-                    </a>  
-                </div> */}
+                <p class="mb-8 text-2xl font-bold text-gray-300  lg:text-4xl sm:px-16 lg:px-48">We love to serve you with compassionate care.</p>
+                <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
+                    
+                   <p className='text-white rounded-lg border-4 py-3 px-3 border-greentheme text-2xl lg:text-3xl md:w-1/2'>
+                     We offer qaulity  and very affordable services ranging from domiciliary care, respite care and many more.
+                    Our team of exceptionally competent, caring and well-trained individuals is one of the reasons you should
+                    join us today.</p>
+
+                        
+                      
+                </div> 
             </div>
         </section>
 
@@ -40,14 +35,14 @@ function Home() {
                         Here are some of the services we offer:
                     </h4>
 
-                    <div className="mb-4 rounded-lg overflow-hidden sm:w-16 lg:mt-4 mt-0 sm:mt-0">
+                    <div className="mb-4 rounded-lg overflow-hidden sm:w-16 lg:mt-0 mt-0 sm:mt-0">
                         <img src={serv} alt="Residential Care" className="w-full lg:h-full h-12 object-cover" />
                     </div>
                 </div> 
 
                 <div class=" lg:flex grid  lg:grid-cols-4 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
 
-                    <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 sm:items-center sm:justify-center">
+                    <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 pt-2 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={domic} alt="" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
@@ -61,7 +56,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-5 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>
@@ -84,7 +79,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-9 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -106,7 +101,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-3 md:mt-9 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -127,7 +122,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-2 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>

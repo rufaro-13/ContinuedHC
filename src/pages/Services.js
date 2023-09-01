@@ -51,11 +51,11 @@ function Services() {
                 </div>
 
                 <p class='font-normal text-sm md:text-lg  sm:items-center sm:justify-center px-2'>
-                    Some of the advantages of domiciliary care include: <br/><br/>
+                    Why should you choose our domiciliary care services: <br/><br/>
                     <ul class="list-disc ">
-                        <li>It is a very affordable</li>
-                        <li>Provides a familiar and comfortable environment for the cared for individual</li>
-                        <li>A sense of retaining their independencethe and individual benefits from improved mental health  </li>
+                        <li>They are very affordable</li>
+                        <li>We provides a familiar and comfortable environment for the cared for individual</li>
+                        <li>A sense of retaining their independence and individual benefits from improved mental health is our priority  </li>
                     </ul>
                 </p>
 
@@ -84,11 +84,11 @@ function Services() {
                                     Palliative care also known as 'end-of-life care' refers to the services given to those with a terminal illness.
                                     We provide physical, emotional, social, and spiritual support for patients and their families
                                     day and night comfort during defining moments of life.<br/><br/>
-                                    Some of the advantages of domiciliary care include: <br/><br/>
+                                    If you join us, we will: <br/><br/>
                                     <ul class="list-disc ">
-                                        <li>Provide individuals with reassurance, comfort and company</li>
-                                        <li>Comforts loved ones by knowing that theindividual is being cared for</li>
-                                        <li>May aid relief of some symptoms via medication that can be administered as an out-patient</li>
+                                        <li>Provide you with reassurance, comfort and company</li>
+                                        <li>Comfort loved ones by knowing that the individual is being cared for</li>
+                                        <li>Aid relief of some symptoms via medication that can be administered as an out-patient</li>
                                     </ul>
                                     </p>
 
@@ -107,21 +107,21 @@ function Services() {
                                 </h5>
                                 <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
-                                        It refers to temporary care service, designed to give carers such as family members,
+                                    We provide temporary care services, designed to give carers such as family members,
                                     or the person receiving care, a much-needed break. We can provide these services at home or residential facilities.
 
                                     The services include:<br/><br/>
 
                                     <ul class="list-disc ">
-                                        <li>Individul's care is taken over by a trained carer for a few hours</li>
+                                        <li>Individual's care is taken over by a trained carer for a few hours</li>
                                         <li>Taking out the cared for indivdual</li>
                                         
                                     </ul><br/>
 
-                                    Some of the advantages include:<br/>
+                                    We will make sure that:<br/>
                                     <ul class="list-disc ">
-                                        <li>It is good for the mental health and wellbeing of both the carer and the individual being cared fo</li>
-                                        <li>it prevents burnout and provides the opportunity for a break to family members or carers</li>
+                                        <li>We are on top of the mental health and wellbeing of both the carer and the individual being cared for</li>
+                                        <li>We prevent burnouts and provide the opportunity for a break to family members or carers</li>
                                     </ul>
                                 </p> 
                                 </p>
@@ -148,11 +148,11 @@ function Services() {
                                         <li>Taking medication</li>                                      
                                     </ul>
 
-                                    Some of the advantages include:<br/>
+                                    {/* Some of the advantages include:<br/>
                                     <ul class="list-disc ">
                                         <li>It is good for the mental health and wellbeing of both the carer and the individual being cared fo</li>
                                         <li>it prevents burnout and provides the opportunity for a break to family members or carers</li>
-                                    </ul>
+                                    </ul> */}
                                 </p> 
                                 </p>
     
