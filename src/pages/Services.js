@@ -87,11 +87,11 @@ function Services() {
                                     Palliative care also known as 'end-of-life care' refers to the services given to
                                      those with a terminal illness. Continued Healthcare strives to provide physical, emotional,
                                       social, and spiritual support for service users  and their families during defining moments of life.<br/><br/>
-                                    If you join us, we will: <br/><br/>
+                                      When you join us, we will: <br/><br/>
                                     <ul class="list-disc ">
-                                        <li>Provide you with reassurance, comfort and company</li>
-                                        <li>Comfort loved ones by knowing that the individual is being cared for</li>
-                                        <li>Aid relief of some symptoms via medication that can be administered as an out-patient</li>
+                                        <li>Provide you with reassurance, comfort and companionship.</li>
+                                        <li>Comfort your loved ones by knowing that you are receiving good quality care.</li>
+                                        <li>Help to manage pain using prescribed medication as well as engaging in theurapetic intervention.</li>
                                     </ul>
                                     </p>
 
