@@ -31,7 +31,7 @@ function Services() {
                         Also known as 'Home care' refers to the range of services put in place to support an individual in their home. A trained 
                         carer visits the individual cared for, usually for a few hours each day or as the individual requires. Our services enable
                          people to remain independent at home and help them maintain their quality of life.
-                        This range of services includes:<br/><br/>
+                        The range of services includes:<br/><br/>
                         <ul class="list-disc ">
                             <li>household chores</li>
                             <li>making meals</li>
@@ -56,6 +56,9 @@ function Services() {
                         <li>They are very affordable.</li>
                         <li>We provide care at home in your familiar and comfortable environment for the cared for individual.</li>
                         <li>A sense of retaining their independence and individual benefits from improved mental health is our priority.  </li>
+                        <li>We support people to maintain their independence and promote choice.</li>
+                        <li>We respect and promote dignity in delivery of our services.</li>
+                        <li>We listen to your wishes and tailor make our services to suit your needs</li>
                     </ul>
                 </p>
 
@@ -81,9 +84,9 @@ function Services() {
                                 <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='rounded-lg text-left '>
                                     
-                                    Palliative care also known as 'end-of-life care' refers to the services given to those with a terminal illness.
-                                    We provide physical, emotional, social, and spiritual support for patients and their families
-                                    day and night comfort during defining moments of life.<br/><br/>
+                                    Palliative care also known as 'end-of-life care' refers to the services given to
+                                     those with a terminal illness. Continued Healthcare strives to provide physical, emotional,
+                                      social, and spiritual support for service users  and their families during defining moments of life.<br/><br/>
                                     If you join us, we will: <br/><br/>
                                     <ul class="list-disc ">
                                         <li>Provide you with reassurance, comfort and company</li>
