@@ -2,22 +2,22 @@
 
 import {  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../images/logo.jpg'
+import logo from '../images/CHC_png.png'
 export default function NavbarWithCTAButton() {
   return (
     <Navbar
       fluid
       
-      className="bg-emerald-500"
+      className="bg-emerald-200"
     >
       <Navbar.Brand href="https://flowbite-react.com">
         <img
           alt="Flowbite React Logo"
-          className="mr-3 h-6 sm:h-9"
+          className="mr-3 h-12 sm:h-20"
           src={logo}
         />
-        <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">
-          Continued Health Care
+        <span className="self-center whitespace-nowrap text-emerald-800 text-xl font-bold dark:text-white">
+          Continued Health Care Limited
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
@@ -29,18 +29,18 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-white font-bold md:text-lg'>
+          <p className='text-emerald-800 font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/about" className='text-white font-bold md:text-lg'>
+        <Link to="/about" className='text-emerald-800 font-bold md:text-lg'>
           About
         </Link>
-        <Link to="/services" className='text-white font-bold md:text-lg'>
+        <Link to="/services" className='text-emerald-800 font-bold md:text-lg'>
           Services
         </Link>
         
-        <Link to="/contact" className='text-white font-bold md:text-lg'>
+        <Link to="/contact" className='text-emerald-800 font-bold md:text-lg'>
           Contact
         </Link>
       </Navbar.Collapse>

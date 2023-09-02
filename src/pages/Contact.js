@@ -16,7 +16,7 @@ function Contact() {
             <div class=" lg:px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
+                    <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
                     Contacting Continued HealthCare
                     </h4>
                 </div> 

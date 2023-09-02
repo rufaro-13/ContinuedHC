@@ -11,7 +11,7 @@ function Services() {
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h4 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
+                    <h4 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
                        Our services:
                     </h4>
                 </div> 
@@ -65,7 +65,7 @@ function Services() {
                 <div class=" px-4 mx-auto max-w-screen-xl text-center pt-4">
 
                     <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
-                        <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-black md:text-3xl lg:text-3xl">
+                        <h4 class="mb-4 text-1xl font-bold tracking-tight leading-none text-emerald-700 md:text-3xl lg:text-3xl">
                             Here are some of the services we offer:
                         </h4>
                     </div> 

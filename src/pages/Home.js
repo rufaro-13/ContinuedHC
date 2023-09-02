@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react'
 import { Link } from "react-router-dom";
 import domic from "../images/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg"
@@ -20,7 +21,7 @@ function Home() {
                 <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
                     
                    <p className='text-white rounded-lg border-4 py-3 px-3 border-greentheme text-2xl lg:text-3xl md:w-1/2'>
-                   We offer high quality and affordable services ranging from domiciliary care, respite care, end of life and many morr. We are confident in our team of exceptionally
+                   We offer high quality and affordable services ranging from domiciliary care, respite care, end of life and many more. We are confident in our team of exceptionally
                     competent, caring and well-trained staff. We promote human rights, dignity and respect individuals choices.</p>
 
                         
@@ -58,7 +59,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-5 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-6 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>
@@ -76,12 +77,12 @@ function Home() {
                         </h5>
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                            We provide physical, emotional, social, and spiritual support for patients and their families
-                            day and night comfort during defining moments of life.
+                            We provide physical, emotional, social, and spiritual support for patients and their families 
+                            during defining moments of life.
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-9 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-20 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -98,12 +99,12 @@ function Home() {
                         </h5>
                         <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                             <p class='text-left'>
-                            We provide temporary care services, designed to give carers such as family members,
-                                                or the person receiving care, a much-needed break.
+                            We provide temporary care services, designed to give family members sometime off 
+                            to re-energise whilst having peace of mind that their loved ones are looked after.
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-3 md:mt-9 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-3 md:mt-20 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -124,7 +125,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-2 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-6 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>
