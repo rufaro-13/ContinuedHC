@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c32a17e.css",
-    "main.js": "/static/js/main.6995aae8.js",
+    "main.css": "/static/css/main.332062fd.css",
+    "main.js": "/static/js/main.36988ccc.js",
     "static/js/787.55b6f5d6.chunk.js": "/static/js/787.55b6f5d6.chunk.js",
     "static/media/medium-shot-woman-getting-breakfast.jpg": "/static/media/medium-shot-woman-getting-breakfast.aefb41d3b370fe392c61.jpg",
     "static/media/smiley-man-woman-medium-shot.jpg": "/static/media/smiley-man-woman-medium-shot.f9484f4f392d6ceeccef.jpg",
@@ -13,12 +13,12 @@
     "static/media/CHC_png.png": "/static/media/CHC_png.2d4f2102c8905450f215.png",
     "static/media/wired-flat-20-love-heart.gif": "/static/media/wired-flat-20-love-heart.4930a37ced3a9ee1807c.gif",
     "index.html": "/index.html",
-    "main.6c32a17e.css.map": "/static/css/main.6c32a17e.css.map",
-    "main.6995aae8.js.map": "/static/js/main.6995aae8.js.map",
+    "main.332062fd.css.map": "/static/css/main.332062fd.css.map",
+    "main.36988ccc.js.map": "/static/js/main.36988ccc.js.map",
     "787.55b6f5d6.chunk.js.map": "/static/js/787.55b6f5d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c32a17e.css",
-    "static/js/main.6995aae8.js"
+    "static/css/main.332062fd.css",
+    "static/js/main.36988ccc.js"
   ]
 }
