@@ -59,7 +59,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-6 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-20 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>
@@ -82,7 +82,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-20 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-32 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -125,7 +125,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-6 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:mt-20 md:py-3 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                                 </Link>

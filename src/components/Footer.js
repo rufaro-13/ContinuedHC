@@ -36,7 +36,7 @@ function Footer() {
         </span>
 
         <span class="block text-sm text-emerald-800 sm:text-center dark:text-gray-400 col-span-1 "> 
-            <a href="rufarochiuta@gmail.com" class="hover:underline">
+            <a href="mailto:rufarochiuta@gmail.com" class="hover:underline">
                 Developed by Rufaro Chiuta
             </a>
             

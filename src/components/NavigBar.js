@@ -10,14 +10,18 @@ export default function NavbarWithCTAButton() {
       
       className="bg-emerald-200"
     >
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand >
+        <Link
+          
+          to="/"
+        >
         <img
           alt="Flowbite React Logo"
           className="mr-3 h-12 sm:h-20"
           src={logo}
-        />
+        /></Link>
         <span className="self-center whitespace-nowrap text-emerald-800 text-xl font-bold dark:text-white">
-          Continued Health Care Limited
+          Continued Health Care
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
