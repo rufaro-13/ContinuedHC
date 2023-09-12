@@ -24,11 +24,11 @@ function Services() {
 
                     <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-4 ">
                         <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none text-center text-black md:text-2xl lg:text-2xl">
-                            Domiciliary Care <br/><br/>
+                            Domiciliary Care(Home Care) <br/><br/>
                         </h5>
 
                         <p class='font-normal text-sm md:text-lg px-2'>
-                        Also known as 'Home care' refers to the range of services put in place to support an individual in their home. A trained 
+                        We provide a range of services to support individuals in their home. A trained 
                         carer visits the individual cared for, usually for a few hours each day or as the individual requires. Our services enable
                          people to remain independent at home and help them maintain their quality of life.
                         The range of services includes:<br/><br/>
@@ -39,6 +39,7 @@ function Services() {
                             <li>personal care</li>
                             <li>administering medication</li>
                             <li>companionship</li>
+                            <li>socila inclusion</li>
                         </ul>
 
                         <br/><br/>
@@ -53,7 +54,7 @@ function Services() {
                 <p class='font-normal text-sm md:text-lg  sm:items-center sm:justify-center px-2'>
                     Why should you choose our domiciliary care services: <br/><br/>
                     <ul class="list-disc ">
-                        <li>They are very affordable.</li>
+                        <li> We are affordable, we listen we incorporate your wishes.</li>
                         <li>We provide care at home in your familiar and comfortable environment for the cared for individual.</li>
                         <li>A sense of retaining their independence and individual benefits from improved mental health is our priority.  </li>
                         <li>We support people to maintain their independence and promote choice.</li>
@@ -78,20 +79,19 @@ function Services() {
                                
                                 <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                                     <p>
-                                    Palliative Care
+                                    Palliative Care(End-of-life Care)
                                     </p>
                                 </h5>
                                 <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='rounded-lg text-left '>
                                     
-                                    Palliative care also known as 'end-of-life care' refers to the services given to
-                                     those with a terminal illness. Continued Healthcare strives to provide physical, emotional,
+                                    We provide a range of services to those with a terminal illness. Continued Healthcare strives to provide physical, emotional,
                                       social, and spiritual support for service users  and their families during defining moments of life.<br/><br/>
                                       When you join us, we will: <br/><br/>
                                     <ul class="list-disc ">
                                         <li>Provide you with reassurance, comfort and companionship.</li>
                                         <li>Comfort your loved ones by knowing that you are receiving good quality care.</li>
-                                        <li>Help to manage pain using prescribed medication as well as engaging in theurapetic intervention.</li>
+                                        <li>Help to manage pain using prescribed medication as well as engaging in therapeutic intervention.</li>
                                     </ul>
                                     </p>
 
@@ -111,12 +111,13 @@ function Services() {
                                 <p className="font-normal text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-4">
                                     <p className='text-left'>
                                     We provide temporary care services, designed to give  family members sometime off to re-energise whilst 
-                                    having peace of mind that their loved ones are looked after.  This gives our service users a change of environment and experience which sometimes good for mental health.
+                                    having peace of mind that their loved ones are looked after.  This gives our service users a change of environment 
+                                    and experience which sometimes is good for mental health.
 
                                     We can provide these services at home or residential facilities. The services include:<br/><br/>
 
                                     <ul class="list-disc ">
-                                        <li>Individual's care is taken over by a trained carer for a few hours</li>
+                                        <li>Individual's care is taken overprovide by a trained carer for an agreed amount of time</li>
                                         <li>Taking out the cared for indivdual</li>
                                         
                                     </ul><br/>

@@ -22,7 +22,7 @@ function About() {
                         </h5>
 
                         <p class="pl-4 font-normal text-sm md:text-lg">
-                        As CHC we take pride in seeing our clients maintain their life style. We aim : <br/><br/>
+                        As Continued Health Care we take pride in seeing our clients maintain their life style. We aim : <br/><br/>
                         <ul class="pl-4 list-disc">
                             <li> to provide a high standard of care and support to every service user.</li>
                             <li> to ensure the independence of our clients in a safe and comfortable environment </li>
@@ -57,10 +57,10 @@ function About() {
                         </h5>
 
                         <p class="pl-4 font-normal text-sm md:text-lg">
-                        CHC is the best because: <br/><br/>
+                        Continued Health Care is the best because: <br/><br/>
                         <ul class="pl-4 list-disc">
-                            <li> we provide the best services at very affordable prices.</li>
-                            <li> we listen to oyur wishes and tailor make our services to suit you need. </li>
+                            <li> we provide the best services at affordable prices.</li>
+                            <li> we listen to your wishes and tailor make our services to suit your needs. </li>
                             <li> we promote a healthy lifestyle</li>
                             <li> we provide you with reassurance, comfort and companionship.</li>
                         </ul>

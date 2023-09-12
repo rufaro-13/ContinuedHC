@@ -1,6 +1,7 @@
 import React from 'react'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton, FaPhone,  } from 'react-icons/fa6';
+import {BsTelephoneFill} from 'react-icons/bs'
 //import  Map from '../components/Map'
 
 function Contact() {
@@ -23,8 +24,8 @@ function Contact() {
 
                 <div class="sm:flex sm:items-center sm:justify-center lg:mx-8 mt-2 px-5">
                   <p class=" font-normal text-sm md:text-lg">
-                      If you wish to contact Continued HealthCare please do not hesitate to call us on the numbers below or send an email to the email address below.<br/><br/>
-                      Feel free to visit us at the address provided below.
+                      To request more information, please give us a call or email us. We would love to speak to you regarding
+                      our experienced support carers that can help you deliver excellent services to your business and clients.
                   
                   </p>
                   <br/>
@@ -53,10 +54,37 @@ function Contact() {
                     <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center py-4  lg:ml-48 mt-8">
 
                           <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
+                            <a href="tel:0795 419 2764"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
+                            </div></a>
+                          </IconContext.Provider>
+                          <div class="  sm:items-center sm:justify-center   mt-1">
+                            <p class=" text-1xl font-normal">
+                            <div><span class="text-black text-2xl font-bold"><a href="tel:0795 419 2764" 
+                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                            Mobile: 0795 419 2764
+                            </p>
+                          </div>
+
+                          <div class="  sm:items-center sm:justify-center   mt-1">
+                            <p class=" text-1xl font-normal">
+                            <div><span class="text-black text-2xl font-bold"><a href="tel:07463 372 8971" 
+                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                            Mobile: 07463 372 8971
+                            </p>
+                          </div>
+
+                    </div>
+
+                    <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center py-4  lg:ml-48 mt-8">
+
+                          <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                             <a href="tel:07463 372 8971"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
+                          
+
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
                             <div><span class="text-black text-2xl font-bold"><a href="tel:07463 372 8971" 
