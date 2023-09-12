@@ -68,15 +68,7 @@ function Contact() {
                             </p>
                           </div>
 
-                          <div class="  sm:items-center sm:justify-center   mt-1">
-                            <p class=" text-1xl font-normal">
-                            <div><span class="text-black text-2xl font-bold"><a href="tel:07463 372 8971" 
-                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent
-                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
-                              dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Mobile: 07463 372 8971</a></span></div>
-                            
-                            </p>
-                          </div>
+                          
 
                     </div>
 
