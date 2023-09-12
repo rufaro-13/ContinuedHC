@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton, FaPhone,  } from 'react-icons/fa6';
-import {BsTelephoneFill} from 'react-icons/bs'
+
 //import  Map from '../components/Map'
 
 function Contact() {
