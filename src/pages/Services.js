@@ -1,12 +1,15 @@
 import React from 'react'
 import domiciliary from '../images/smiley-man-woman-medium-shot.jpg'
-import domic from "../images/african-social-worker-helping-senior-woman.jpg"
-import paliat from '../images/smiley-man-woman-medium-shot.jpg'
-import respite from '../images/high-angle-man-sleeping-with-mask.jpg'
+//import domic from "../images/african-social-worker-helping-senior-woman.jpg"
+ import paliat from '../images/smiley-man-woman-medium-shot.jpg'
+/*import respite from '../images/high-angle-man-sleeping-with-mask.jpg'
+ */
 
 function Services() {
   return (
     <div>
+
+
         <section>
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
@@ -67,13 +70,13 @@ function Services() {
 
                     <div class="px-4 mx-auto max-w-screen-xl text-center pt-6  ">
                         <h4 class="mb-4 text-1xl font-bold tracking-tight leading-none text-emerald-700 md:text-3xl lg:text-3xl">
-                            Here are some of the services we offer:
+                            Here is the other services we offer:
                         </h4>
                     </div> 
 
-                    <div class="md:flex grid  lg:grid-cols-3 lg:gap-x-4 m-auto md:grid-cols-2 md:gap-2  grid-cols-1 px-2 item-stretch " >
+                    <div class="md:flex grid  lg:grid-cols-1 lg:gap-x-4 m-auto md:grid-cols-1 md:gap-2  grid-cols-1 px-2 item-stretch " >
 
-                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3">
+                        <div className="px-4 col-span-1  sm:items-center sm:justify-center pt-3">
                         
                                 <img class="rounded-t-lg" src={paliat} alt="" />
                                
@@ -100,7 +103,7 @@ function Services() {
                             
                         </div>
 
-                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3 ">
+                        {/* <div className="px-4 col-span-1 lg:w-1/2 md:w-1/2 sm:items-center sm:justify-center pt-3 ">
                             
                                 <img class="rounded-t-lg" src={respite} alt="" />
                                 <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
@@ -132,9 +135,9 @@ function Services() {
                                 </p> 
                                 </p>
                             
-                        </div>
+                        </div> */}
 
-                        <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3">
+                       {/*  <div className="px-4 col-span-1 lg:w-1/3 md:w-1/2 sm:items-center sm:justify-center pt-3">
                             <img class="rounded-t-lg" src={domic} alt="" />
                             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                                     <p>
@@ -157,16 +160,12 @@ function Services() {
                                         <li>Promoting relationships with family and friends.</li>                                    
                                     </ul>
 
-                                    {/* Some of the advantages include:<br/>
-                                    <ul class="list-disc ">
-                                        <li>It is good for the mental health and wellbeing of both the carer and the individual being cared fo</li>
-                                        <li>it prevents burnout and provides the opportunity for a break to family members or carers</li>
-                                    </ul> */}
+                                    
                                 </p> 
                                 </p>
     
                             
-                        </div>
+                        </div> */}
                                         
                     </div>
 

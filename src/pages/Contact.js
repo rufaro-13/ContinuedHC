@@ -1,8 +1,7 @@
 import React from 'react'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton, FaPhone,  } from 'react-icons/fa6';
-
-//import  Map from '../components/Map'
+//import { Helmet } from 'react-helmet-async';//import  Map from '../components/Map'
 
 function Contact() {
 
@@ -13,12 +12,14 @@ function Contact() {
 //}
   return (
     <div>
+
+
         <section>
             <div class=" lg:px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
                     <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
-                    Contacting Continued HealthCare
+                    Contacting Continued Health Care
                     </h4>
                 </div> 
 

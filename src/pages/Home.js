@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import domic from "../images/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg"
 
 import paliat from '../images/high-angle-man-sleeping-with-mask.jpg'
-import respite from '../images/african-social-worker-helping-senior-woman.jpg'
-import supported from '../images/medium-shot-woman-getting-breakfast.jpg'
+//import respite from '../images/african-social-worker-helping-senior-woman.jpg'
+//import supported from '../images/medium-shot-woman-getting-breakfast.jpg'
 import serv from '../images/24-hours.gif'
 function Home() {
   return (
@@ -43,9 +43,9 @@ function Home() {
                     </div>
                 </div> 
 
-                <div class=" lg:flex grid  lg:grid-cols-4 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
+                <div class=" lg:flex grid  lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
 
-                    <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 pt-2 sm:items-center sm:justify-center">
+                    <div className="px-2 col-span-1 lg:w-1/2 md:w-1/2 pt-2 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={domic} alt="" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
@@ -67,7 +67,7 @@ function Home() {
                     </div>
                     
 
-                    <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 pt-2 sm:items-center sm:justify-center">
+                    <div className="px-2 col-span-1 lg:w-1/2 md:w-1/2 pt-2 sm:items-center sm:justify-center">
                     
                         <img class="rounded-t-lg" src={paliat} alt="" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
@@ -82,7 +82,7 @@ function Home() {
                             </p>
 
                             <Link to="services" 
-                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-32 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
+                                class="inline-flex justify-center hover:text-gray-900 items-center md:py-3 mt-2 md:mt-24 py-2 px-5 text-base font-medium text-sm md:text-lg text-center
                                 text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-gray-300">
                                     Learn more
                             </Link>
@@ -90,7 +90,7 @@ function Home() {
                         
                     </div>
 
-                    <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 pt-2 sm:items-center sm:justify-center">
+                    {/* <div className="px-2 col-span-1 lg:w-1/3 md:w-1/2 pt-2 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={respite} alt="" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
                             <p>
@@ -109,8 +109,8 @@ function Home() {
                                     Learn more
                             </Link>
                         </p>
-                    </div>
-
+                    </div> */}
+{/* 
                     <div className="px-2 col-span-1 lg:w-1/4 md:w-1/2 pt-2 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={supported} alt="" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white pt-2">
@@ -130,7 +130,7 @@ function Home() {
                                     Learn more
                                 </Link>
                         </p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

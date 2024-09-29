@@ -4,7 +4,7 @@ import heart from '../images/wired-flat-20-love-heart.gif'
 
 function About() {
   return (
-    <div>
+    <div> 
       <section>
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
