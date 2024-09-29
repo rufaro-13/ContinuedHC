@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2918aa2a.css",
-    "main.js": "/static/js/main.9ac4d549.js",
+    "main.css": "/static/css/main.5bd64e04.css",
+    "main.js": "/static/js/main.ab467e28.js",
     "static/js/787.55b6f5d6.chunk.js": "/static/js/787.55b6f5d6.chunk.js",
     "static/media/medium-shot-woman-getting-breakfast.jpg": "/static/media/medium-shot-woman-getting-breakfast.aefb41d3b370fe392c61.jpg",
     "static/media/smiley-man-woman-medium-shot.jpg": "/static/media/smiley-man-woman-medium-shot.f9484f4f392d6ceeccef.jpg",
     "static/media/high-angle-man-sleeping-with-mask.jpg": "/static/media/high-angle-man-sleeping-with-mask.3ae9f5a9a73eb1905e18.jpg",
-    "static/media/african-social-worker-helping-senior-woman.jpg": "/static/media/african-social-worker-helping-senior-woman.1221dd284173d0e1b842.jpg",
     "static/media/24-hours.gif": "/static/media/24-hours.0ec9f5c1119a2326b55c.gif",
     "static/media/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.jpg": "/static/media/older-man-wheelchair-smiles-nurse-assistant-she-hands-him-glass-water.0f4cbf63a5cf684beada.jpg",
     "static/media/goal.gif": "/static/media/goal.e6cecd8dbaee924ed0d6.gif",
     "static/media/CHC_png.png": "/static/media/CHC_png.2d4f2102c8905450f215.png",
     "static/media/wired-flat-20-love-heart.gif": "/static/media/wired-flat-20-love-heart.4930a37ced3a9ee1807c.gif",
     "index.html": "/index.html",
-    "main.2918aa2a.css.map": "/static/css/main.2918aa2a.css.map",
-    "main.9ac4d549.js.map": "/static/js/main.9ac4d549.js.map",
+    "main.5bd64e04.css.map": "/static/css/main.5bd64e04.css.map",
+    "main.ab467e28.js.map": "/static/js/main.ab467e28.js.map",
     "787.55b6f5d6.chunk.js.map": "/static/js/787.55b6f5d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2918aa2a.css",
-    "static/js/main.9ac4d549.js"
+    "static/css/main.5bd64e04.css",
+    "static/js/main.ab467e28.js"
   ]
 }
